@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'XBPushNotification', :exclusive => true do
+  pod "XBPushNotification", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "XBPushNotification", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
