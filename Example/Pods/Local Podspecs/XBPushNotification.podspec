@@ -10,9 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "XBPushNotification"
   s.version          = "0.1.0"
-  s.summary          = "A small library support setting push notification"
+  s.summary          = "A short description of XBPushNotification."
   s.description      = <<-DESC
-                       A small library support setting push notification, with smallest footprint
+                       An optional longer description of XBPushNotification
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!

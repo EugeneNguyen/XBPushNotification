@@ -1,4 +1,5 @@
 # XBPushNotification
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/eugenenguyen/XBPushNotification.svg?style=flat)](https://travis-ci.org/eugenenguyen/XBPushNotification)
 [![Version](https://img.shields.io/cocoapods/v/XBPushNotification.svg?style=flat)](http://cocoapods.org/pods/XBPushNotification)
@@ -27,3 +28,5 @@ eugenenguyen, xuanbinh91@gmail.com
 ## License
 
 XBPushNotification is available under the MIT license. See the LICENSE file for more info.
+=======
+>>>>>>> 28b3a5c2a1daaf972eb4286f6e9eff930065a577

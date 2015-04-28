@@ -1,0 +1,17 @@
+PODS:
+  - FBSnapshotTestCase (1.7)
+  - XBPushNotification (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XBPushNotification (from `../`)
+
+EXTERNAL SOURCES:
+  XBPushNotification:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 1eea5145c1f2fa907812ab92e1d6063a8d809b4e
+  XBPushNotification: adcde064016ae5b1f7d78011f2ff1c8b45344146
+
+COCOAPODS: 0.34.4
