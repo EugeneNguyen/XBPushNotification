@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "XBPushNotification"
   s.version          = "0.1.0"
-  s.summary          = "A short description of XBPushNotification."
+  s.summary          = "A small library support setting push notification"
   s.description      = <<-DESC
-                       An optional longer description of XBPushNotification
+                       A small library support setting push notification, with smallest footprint
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/XBPushNotification"
+  s.homepage         = "https://github.com/EugeneNguyen/XBPushNotification"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "eugenenguyen" => "xuanbinh91@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/XBPushNotification.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/EugeneNguyen/XBPushNotification.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

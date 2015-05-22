@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "XBPushNotification"
-  s.version          = "0.1.0"
+  s.version          = "0.1.0.1"
   s.summary          = "A small library support setting push notification"
   s.description      = <<-DESC
                        A small library support setting push notification, with smallest footprint

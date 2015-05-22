@@ -29,6 +29,8 @@
     NSString * deviceToken = [[[[_deviceToken description] stringByReplacingOccurrencesOfString: @"<" withString: @""] stringByReplacingOccurrencesOfString: @">" withString: @""] stringByReplacingOccurrencesOfString: @" " withString: @""];
     [[NSUserDefaults standardUserDefaults] setObject:deviceToken forKey:@"XBPushNotificationDeviceToken"];
     [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"XBPushNotificationDeviceTokenChange" object:nil];
 }
 
 + (NSString *)deviceToken
